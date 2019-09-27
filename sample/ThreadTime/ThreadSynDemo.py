@@ -41,7 +41,6 @@ class Server(threading.Thread):
             con.release()
 
 
-
 class Client(threading.Thread):
     def run(self):
         global x

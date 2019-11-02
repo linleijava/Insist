@@ -187,6 +187,7 @@ if __name__ == '__main__':
     # deamon
     main()
     # rlock
+    print("rlock----")
     lockdome()
     # Event
     Dinner = threading.Event()
